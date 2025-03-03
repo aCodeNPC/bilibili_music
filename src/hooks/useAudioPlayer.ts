@@ -240,7 +240,7 @@ const useAudioPlayer = ({ currentVideo, onPrevious, onNext }: UseAudioPlayerProp
 
           // 设置音频属性
           audioElement.crossOrigin = 'anonymous';
-          audioElement.preload = 'auto';
+          // audioElement.preload = 'auto';
           audioElement.src = audioUrl;
           audioElement.volume = volume;
           audioElement.muted = isMuted;
